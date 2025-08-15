@@ -1,109 +1,137 @@
-<html>
-  <head> </head>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica 03</title>
+  </head>
   <body>
-    <h1>01</h1>
-    <h1>Tutorial de MySQL</h1>
-
-    <a href="#introduccion">Introducción</a><br />
-
-    <a href="#mostrarbasedatos">show databases</a><br />
-
-    <a href="#creaciontabla">Creación de una tabla y mostrar sus campos</a
+    <header>
+      <h1>Diego Rea Morales</h1>
+    </header>
+    <p>Estudiante de la Facultad de Ingeniería Ciencias y Arquitectura</p>
+    <img
+      src="https://m.media-amazon.com/images/M/MV5BMDc5ZWY5OGEtZTNhMC00NjMwLTliNDItNDM0YTQ4NDFjMzM0XkEyXkFqcGc@._V1_.jpg"
+      height="600"
+      width="400"
+    /><br /><br />
+    <a href="https://www.youtube.com/channel/UCUNKRSxpf-j4oDgd_8De0AA">
+      Visita mi canal de YouTube </a
     ><br />
+    <footer>
+      Creada por Diego Rea Morales, Todos los derechos reservados, PacRea SA de
+      CV, 2025.
+    </footer>
+    <p>_______________________________________</p>
+    <table border="2">
+      <caption>
+        Lista de productos por cantidad de ventas
+      </caption>
+      <tr>
+        <th>Nombre</th>
+        <th>Precios</th>
+        <th>Fecha</th>
+      </tr>
+      <tr>
+        <td>Latas de atún</td>
+        <td>$20.00</td>
+        <td>01/04/2025</td>
+      </tr>
+      <tr>
+        <td>Botellas de agua</td>
+        <td>$10.00</td>
+        <td>10/05/2025</td>
+      </tr>
+      <tr>
+        <td>Paquetes de galletas</td>
+        <td>$15.00</td>
+        <td>19/05/2025</td>
+      </tr>
+    </table>
+    <p>_______________________________________</p>
+    <form action="procesar_formulario" method="post">
+      <label for="nombre">Nombre:</label><br />
+      <input type="text" id="nombre" name="nombre" required /><br /><br />
+      <label for="email">Correo electrónico:</label><br />
+      <input type="email" id="email" name="email" /><br /><br />
 
-    <a href="#cargarregistros"
-      >Carga de registros a una tabla y su recuperación</a
-    ><br />
-
-    <a name="introduccion"></a>
-
-    <h2>Introducción</h2>
-
-    <p>
-      SQL, Structure Query Language (Lenguaje de Consulta Estructurado) es un
-      lenguaje de programacion para trabajar con base de datos relacionales como
-      MySQL, Oracle, etc.<br />
-
-      MySQL es un interpretador de SQL, es un servidor de base de datos.<br />
-    </p>
-
-    <a name="mostrarbasedatos"></a>
-
-    <h2>show databases</h2>
-
-    <p>Una base de datos es un conjunto de tablas.<br /></p>
-
-    <a name="creaciontabla"></a>
-
-    <h2>Creación de una tabla y mostrar sus campos</h2>
-    <p>Una base de datos almacena sus datos en tablas.<br /></p>
-
-    <a name="cargarregistros"></a>
-
-    <h2>Carga de registros a una tabla y su recuperación</h2>
-    <p>
-      Usamos "insert into". Especificamos los nombres de los campos entre
-      paréntesis y separados por comas y luego los valores para cada campo,
-      también entre paréntesis y separados por comas.<br />
-    </p>
-
-    <h1>02</h1>
-    <img src="./images/foto.jpg" alt="Mi foto" height="50%$" />
-    <h1>04</h1>
-    <ol>
-      <li>Rodriguez Pablo</li>
-
-      <li>Gonzalez Raul</li>
-
-      <li>Lopez Hector</li>
-    </ol>
-    <h1>05</h1>
-    <h2>Lenguajes de programación.</h2>
-
+      <button type="submit">Enviar</button>
+    </form>
+    <p>_______________________________________</p>
     <ul>
-      <li>C</li>
-
-      <li>C++</li>
-
-      <li>Java</li>
-
-      <li>C#</li>
+      <li>Procesador</li>
+      <li>Placa Madre</li>
+      <li>RAM</li>
+      <li>GPU</li>
+      <li>Fuente de Poder</li>
+      <li>Gabinete</li>
+      <li>Disipador</li>
     </ul>
-    <h1>06</h1>
     <ol>
-      <li>
-        Argentina
-
-        <ul>
-          <li><a href="http://www.lanacion.com.ar">La Nación</a></li>
-
-          <li><a href="http://www.clarin.com.ar">Clarín</a></li>
-
-          <li><a href="http://www.pagina12.com.ar">Página 12</a></li>
-        </ul>
-      </li>
-
-      <li>
-        España
-
-        <ul>
-          <li><a href="http://www.elpais.es">El País Digital</a></li>
-          <li><a href="http://www.abc.es">ABC</a></li>
-
-          <li><a href="http://www.elmundo.es">El Mundo</a></li>
-        </ul>
-      </li>
-
-      <li>
-        México
-
-        <ul>
-          <li><a href="http://www.jornada.unam.mx">La Jornada</a></li>
-
-          <li><a href="http://www.el-universal.com.mx">El Universal</a></li>
-        </ul>
-      </li>
+      <li>Procesador</li>
+      <li>Placa Madre</li>
+      <li>RAM</li>
+      <li>GPU</li>
+      <li>Fuente de Poder</li>
+      <li>Gabinete</li>
+      <li>Disipador</li>
     </ol>
+    <p>_______________________________________</p>
+    <a href="./paginaexterna.html">Ir a una página externa</a><br />
+    <p>_______________________________________</p>
+    <dl>
+      <dt>Hierro</dt>
+      <dd>
+        El hierro​​ es un elemento químico de número atómico 26 situado en el
+        grupo 8, periodo 4 de la tabla periódica de los elementos.
+      </dd>
+      <dt>Oro</dt>
+      <dd>
+        El oro es un elemento químico de número atómico 79 situado en el grupo
+        11, periodo 6 de la tabla periódica de los elementos.
+      </dd>
+      <dt>Plata</dt>
+      <dd>
+        La plata es un elemento químico de número atómico 47 situado en el grupo
+        11, periodo 5 de la tabla periódica de los elementos.
+      </dd>
+      <dt>Aluminio</dt>
+      <dd>
+        El aluminio es un elemento químico de número atómico 13 situado en el
+        grupo 13, periodo 3 de la tabla periódica de los elementos.
+      </dd>
+    </dl>
+    <p>_______________________________________</p>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/3IdpL7hr4RY?si=btEGZ0UWpltkxo5O"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <p>_______________________________________</p>
+
+    <a href="mailto:diegoream23@gmail.com">Enviar mail.</a>
+
+    <p>_______________________________________</p>
+
+    <h1>Este seria el encabezado principal</h1>
+    <h2>La diferencia</h2>
+    <h3>entre cada uno</h3>
+    <h4>de los diferentes</h4>
+    <h5>headers, es el tamaño</h5>
+    <h6>Y por ultimo este seria el mas pequeño</h6>
+
+    <p>_______________________________________</p>
+    
+    <ul>
+      <li>Lavar los trastes</li>
+      <li>Barrer</li>
+      <li>Trapear</li>
+      <li>Hacer de comer</li>
+    </ul>
   </body>
 </html>
