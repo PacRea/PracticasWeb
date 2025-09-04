@@ -1,36 +1,91 @@
-:root{
-    --primary-color: #0d0d0d;
-    --secondary-color:  #ffffdf;
+:root {
+  --primary-color: #0d0d0d;
+  --secondary-color: #ffffdf;
 }
-body{
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: Segoe UI;
+}
+.hero {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: 10px;
+  height: 175px;
+  flex-wrap: wrap;
+}
+.hero-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img {
+  position: absolute;
+  left: 0px;
+  margin: 10px;
+}
+.hero-img img {
+  height: 150px;
+  border-radius: 20px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+.content-info {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.info-card {
+  border: 2px solid var(--secondary-color);
+  margin: 2px;
+  padding: 3px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;  
+  width: 33.33%;
+  transition: color 0.7s;
+}
+.info-card:hover{
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    font-family: Segoe UI;
 }
-.hero{
-    position: relative;
-    display: flex;    
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    padding: 10px;
-    height: 200px;
+.content-evi{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
 }
-.hero-intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+footer{
+  background-color: #828282;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.hero-img{
-    position: absolute;
-    left: 0px;
-    margin: 10px;
-}
-.hero-img img{
-    height: 150px;
-    border-radius: 8px;
-}
-.info-card{
-    border: 2px solid white;
-}
+
