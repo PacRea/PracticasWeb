@@ -10,23 +10,24 @@ body{
     padding: 20px;
     margin: 20px;
     background-color: #778da9;
+    border-radius: 15px;
 }
 .imagenes-contenedor img {
     width: 26%;
     margin: 20px;
     opacity: 0.8;
-    transition: all 0.6s ease-in;
+    transition: all 0.5s ease-in;
 }
 .imagenes-contenedor img:hover {
     transform: scale(1.1);
     opacity: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .nav-menu{
     background-color: #778da9;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 15px;;
 }
 .nav-text{
     display: flex;
@@ -62,5 +63,18 @@ body{
     background-color: #415a77;
     color: white;
     transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #778da9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+.form-part{
+    margin: 10px;
+    padding: 10px;
 }
