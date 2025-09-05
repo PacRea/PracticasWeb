@@ -1,0 +1,66 @@
+body{
+    background-color: #415a77;
+    font-family: Segoe UI;
+}
+.imagenes-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    background-color: #778da9;
+}
+.imagenes-contenedor img {
+    width: 26%;
+    margin: 20px;
+    opacity: 0.8;
+    transition: all 0.6s ease-in;
+}
+.imagenes-contenedor img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nav-menu{
+    background-color: #778da9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+.nav-text h1{
+    top: 0px;
+    font-size: 3rem;
+    margin-right: 75px;
+}
+.nav-text a{
+    text-decoration: none;
+    color: #e0e1dd;
+}
+.nav-menu svg{
+    position: relative;
+    left: 0px;
+}
+.nav-a{
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: #0d1b2a;
+    transition: all 0.3s;
+}
+.nav-a:hover{
+    background-color: #415a77;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
