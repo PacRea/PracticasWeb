@@ -28,6 +28,12 @@ body {
   display: flex;
   justify-content: stretch;
 }
+.hero-buttons a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
 .hero-buttons:hover {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -54,7 +60,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: 2px solid white;
 }
 .serie {
   margin: 20px;
@@ -63,12 +68,40 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+}
+.serie-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
 }
 .serie img {
   width: 70%;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.3s eas;
+}
+.serie-info {
+  align-items: center; 
+  margin: 20px;
+  padding: 15px; 
+  font-size: 2rem;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: var(--secondary-color);
+  transition: all 0.5s ease;  
+}
+.serie-info:hover{
+  background-color: var(--primary-color);
+}
+.serie-info:hover a{
+  color: var(--secondary-color);
+}
+.serie a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  transition: all 0.5s ease;
 }
 .card {
   display: flex;
@@ -112,4 +145,27 @@ body {
 .img-gallery img:hover {
   transform: scale(1.1);
   border-radius: 10px;
+}
+footer{
+  background-color: #666666;
+  display: flex;
+}
+.main-footer{
+  display: flex;
+  flex-direction: column;
+}
+.footer-info{
+  margin-left: 150px;
+  font-size: 1.8rem;
+  padding: 10px;
+}
+.footer-info a{
+  margin: 100px;
+  text-decoration: none;
+  color: white;
+}
+.footer-copy{
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 20px;
 }
