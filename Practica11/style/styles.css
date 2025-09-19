@@ -132,7 +132,32 @@ main {
 footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  
 }
 footer *{
   background-color: #6c757d; 
+  border-radius: 20px;
+  margin: 20px;
+}
+.footer-copy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+.footer-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+.footer-links a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
 }
