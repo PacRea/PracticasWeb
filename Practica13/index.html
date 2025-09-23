@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <img
+          src="https://images.pexels.com/photos/76971/fighter-jet-fighter-aircraft-f-16-falcon-aircraft-76971.jpeg"
+        />
+
+        <img
+          src="https://images.pexels.com/photos/76964/fighter-jet-f-15-strike-eagle-fighter-aircraft-jet-fighter-76964.jpeg"
+        />
+
+        <img
+          src="https://images.pexels.com/photos/87088/fighter-jet-jet-aircraft-army-87088.jpeg"
+        />
+
+        <img
+          src="https://images.pexels.com/photos/76970/fighter-jet-fighter-aircraft-aircraft-f-22-raptor-76970.jpeg"
+        />
+
+        <img
+          src="https://images.pexels.com/photos/12489130/pexels-photo-12489130.jpeg"
+        />
+
+        <img
+          src="https://images.pexels.com/photos/28711871/pexels-photo-28711871.jpeg"
+        />
+      </div>
+    </div>
+    <div class="imagenes">
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/2062555/pexels-photo-2062555.jpeg"
+      />
+
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/3593922/pexels-photo-3593922.jpeg"
+      />
+
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/5086489/pexels-photo-5086489.jpeg"
+      />
+
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/5381501/pexels-photo-5381501.jpeg"
+      />
+
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/5214413/pexels-photo-5214413.jpeg"
+      />
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/20004416/pexels-photo-20004416.jpeg"
+      />
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/3457780/pexels-photo-3457780.jpeg"
+      />
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/27954172/pexels-photo-27954172.jpeg"
+      />
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/28941520/pexels-photo-28941520.jpeg"
+      />
+      <img
+        class="imagen"
+        src="https://images.pexels.com/photos/28941525/pexels-photo-28941525.jpeg"
+      />
+    </div>
+    <div class="container2">
+      <h1 class="t1">Formulario de captura de cadena</h1>
+
+      <form id="myForm">
+        <label for="cadena">Escribe una cadena de hasta 300 caracteres:</label>
+
+        <input type="text" id="cadena" name="cadena" maxlength="300" />
+
+        <button type="button" onclick="mostrarCadena()">Mostrar cadena</button>
+      </form>
+
+      <br />
+
+      <div id="resultado">Aqui se escribirá tu mensaje</div>
+    </div>
+
+    <script>
+      function mostrarCadena() {
+        const form = document.getElementById("myForm");
+
+        const cadena = form.elements.cadena.value;
+
+        const resultado = document.getElementById("resultado");
+
+        resultado.innerHTML = cadena;
+      }
+    </script>
+    <footer>
+      <div class="banner">
+        <div class="txtovim">
+          <img
+            class="imagen-footer"
+            src="./imgs/icons8-galaxia-75.png"
+            alt="Image"
+          />
+
+          <div class="text">
+            Si he visto más, es por que estoy parado sobre los hombros de
+            Gigantes.
+
+            <br />
+
+            -Isaac Newton
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!--fotos cajetas   -->
