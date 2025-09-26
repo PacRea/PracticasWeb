@@ -134,16 +134,37 @@ footer p {
   border-radius: 4px;
   transition: background-color 0.3s;
 }
+.menu-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  align-items: center;
+}
+.menu-item{
+  position: relative;
+  border-radius: 20px;
+  transition: all 0.8s ease;
+}
+.menu-item:hover{
+  transform: scale(1.2, 1.2);
+}
+.img-comida:hover{
+  opacity: 1;
+  filter: contrast(105%);
+}
 .img-comida {
   width: 200px;
-  height: 200px;
   object-fit: cover;
   border-radius: 8px;
+  opacity: 0.8;
+  transition: all 0.8s ease;
 }
-.menu{
-  
-}
-.menu-div {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.menu-link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  z-index: 100;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
