@@ -98,6 +98,10 @@ section li {
   text-align: center;
 
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section a {
@@ -129,4 +133,17 @@ footer p {
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s;
+}
+.img-comida {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.menu{
+  
+}
+.menu-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
