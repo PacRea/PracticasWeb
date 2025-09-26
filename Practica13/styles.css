@@ -9,17 +9,17 @@ body {
 .container {
   width: 50%;
   border: 10px solid #edf7f0;
-  overflow: hidden; /*Oculta todo lo que se pase*/
+  overflow: hidden;
   border-radius: 5px;
   box-shadow: 5px 15px 25px #4a536e;
 }
 .wrapper {
-  width: 100%;
+  width: 600%;
   display: flex;
   animation: slide 13s infinite;
 }
 img {
-  width: 100%;
+  width: calc(100%/6);
 }
 @keyframes slide {
   0% {
@@ -29,34 +29,34 @@ img {
     transform: translateX(0);
   }
   16.6% {
-    transform: translateX(-100%);
+    transform: translateX(-16.666%); 
   }
   30% {
-    transform: translateX(-100%);
+    transform: translateX(-16.666%);
   }
   33.3% {
-    transform: translateX(-200%);
+    transform: translateX(-33.333%); 
   }
   46% {
-    transform: translateX(-200%);
+    transform: translateX(-33.333%);
   }
   50% {
-    transform: translateX(-300%);
+    transform: translateX(-50%); 
   }
   63% {
-    transform: translateX(-300%);
+    transform: translateX(-50%);
   }
   66.6% {
-    transform: translateX(-400%);
+    transform: translateX(-66.666%); 
   }
   80% {
-    transform: translateX(-400%);
+    transform: translateX(-66.666%);
   }
   83.3% {
-    transform: translateX(-500%);
+    transform: translateX(-83.333%); 
   }
   100% {
-    transform: translateX(-500%);
+    transform: translateX(-83.333%);
   }
 }
 .imagenes {
