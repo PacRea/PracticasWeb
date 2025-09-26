@@ -1,0 +1,226 @@
+:root {
+  --verde-claro: #c5e8d3;
+  --azul-cielo: #9cd7fc;
+  --lavanda: #d4d9ed;
+  --crema: #f9ebdc;
+  --rojo-principal: #af1b3f;
+  --blanco: #ffffff;
+  --texto-oscuro: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--texto-oscuro);
+  line-height: 1.6;
+}
+
+.seccion {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.seccion h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--rojo-principal);
+}
+
+.seccion-alterna {
+  background-color: var(--crema);
+}
+
+.btn-principal {
+  display: inline-block;
+  background-color: var(--rojo-principal);
+  color: var(--blanco);
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-principal:hover {
+  background-color: #8c1531;
+}
+.header {
+  background-color: var(--blanco);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  top: 0;
+  z-index: 1000;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--rojo-principal);
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: var(--texto-oscuro);
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: var(--rojo-principal);
+}
+.banner-superior {
+  background-color: var(--lavanda);
+  color: var(--texto-oscuro);
+  text-align: center;
+  padding: 80px 20px;
+  height: 300px;
+}
+
+.banner-contenido h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.banner-contenido p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+.servicios-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px auto 0;
+}
+
+.servicio-card {
+  background-color: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.servicio-icono {
+  font-size: 2.5rem;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.servicio-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--rojo-principal);
+}
+.testimonios-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 40px auto 0;
+}
+
+.testimonio-card {
+  background-color: var(--blanco);
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  width: 400px;
+  border-left: 5px solid var(--azul-cielo);
+}
+
+.testimonio-card p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonio-card cite {
+  font-weight: bold;
+  color: var(--rojo-principal);
+}
+.formulario-contacto {
+  max-width: 600px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+  outline: none;
+  border-color: var(--rojo-principal);
+}
+.footer {
+  background-color: #2c2c2c;
+  color: var(--blanco);
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.footer .redes-sociales {
+  margin-top: 10px;
+}
+
+.footer .redes-sociales a {
+  color: var(--blanco);
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer .redes-sociales a:hover {
+  color: var(--azul-cielo);
+}
