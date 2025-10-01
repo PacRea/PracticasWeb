@@ -9,16 +9,16 @@
   <body>
     <header class="hero">
       <section class="banner">
-        <div class="banner-img"><img src="" alt="img-logo" /></div>
+        <div class="banner-img"><img src="./imgs/icons8-relámpago-75.png" alt="img-logo" /></div>
         <div class="banner-text"><h2>PacPower</h2></div>
       </section>
       <nav class="menu-nav">
         <ul class="nav-list">
-          <li>Quienes Somos</li>
-          <li>Productos</li>
-          <li>Galeria</li>
-          <li>Ubicación</li>
-          <li>Contancto</li>
+          <li><a href="">Quienes Somos</a></li>
+          <li><a href="">Productos</a></li>
+          <li><a href="">Galeria</a></li>
+          <li><a href="">Ubicación</a></li>
+          <li><a href="">Contancto</a></li>
         </ul>
       </nav>
     </header>
@@ -63,8 +63,22 @@
       </section>
       <section class="contact">
         <h2>Contacto</h2>
-        <a href="mailto:diegoream23@gmail.com">Mandanos un correo</a>
+        <div class="content-contact">
+          <form>
+            <label for="nom">Ingresa tu nombre</label>
+            <input type="text" class="nom-in" />
+            <label for="email">Ingresa tu correo</label>
+            <input type="email" class="email-in" />
+            <button>Ingresar Datos</button>
+          </form>
+          <div class="mailto">
+            <a href="mailto:diegoream23@gmail.com">Mandanos un correo</a>
+          </div>
+        </div>
       </section>
     </main>
+    <footer>
+      <p>Todos los derechos reservados. Diego Rea Morales, Facultad de Ingeniería Ciencias y Arquitectura. 2025 ©</p>
+    </footer>
   </body>
 </html>
