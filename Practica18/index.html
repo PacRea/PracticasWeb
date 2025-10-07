@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="calculadora">
+      <div class="pantalla">
+        <div class="resultado" id="resultado"></div>
+      </div>
+
+      <div class="botones">
+        <button class="boton boton-operador" onclick="agregarCaracter('+')">
+          +
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('7')">
+          7
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('8')">
+          8
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('9')">
+          9
+        </button>
+
+        <button class="boton boton-operador" onclick="agregarCaracter('-')">
+          -
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('4')">
+          4
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('5')">
+          5
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('6')">
+          6
+        </button>
+
+        <button class="boton boton-operador" onclick="agregarCaracter('*')">
+          X
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('1')">
+          1
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('2')">
+          2
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('3')">
+          3
+        </button>
+
+        <button class="boton boton-operador" onclick="agregarCaracter('/')">
+          /
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('0')">
+          0
+        </button>
+
+        <button class="boton boton-numero" onclick="agregarCaracter('.')">
+          .
+        </button>
+
+        <button class="boton boton-limpiar" onclick="limpiarPantalla()">
+          C
+        </button>
+        <button class="boton boton-operador" onclick="agregarCaracter('sin')">
+          sen
+        </button>
+        <button class="boton boton-operador" onclick="agregarCaracter('cos')">
+          cos
+        </button>
+        <button class="boton boton-operador" onclick="agregarCaracter('**2')">
+          ^2
+        </button>
+        <button class="boton boton-operador" onclick="agregarCaracter('**3')">
+          ^3
+        </button>
+
+        <button class="boton boton-igual" onclick="calcularResultado()">
+          =
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
