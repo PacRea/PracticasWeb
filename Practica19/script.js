@@ -1,4 +1,4 @@
-function dibujarPoligono() {
+function dibujarPoligono() {  
   const canvas = document.getElementById("canvas");
 
   const lados = document.getElementById("lados").value;
@@ -35,22 +35,21 @@ function dibujarPoligono() {
   ctx.stroke();
 }
 function dibujarRecta() {
+
   const canvas = document.getElementById("canvas");
-
-  const lados = document.getElementById("lados").value;
-
   const ctx = canvas.getContext("2d");
 
+  const recta = canvas.width * 0.4;
   const centroX = canvas.width / 2;
-
   const centroY = canvas.height / 2;
 
-  const tam = canvas.width * 0.4;
+  const inicio = centroX - (recta / 2);
+  const fin = centroX + (recta / 2);
 
   ctx.beginPath();
 
-  ctx.moveTo(centroX - 70, centroY);
-  ctx.lineTo(centroX - 70, tam);
+  ctx.moveTo(inicio, centroY);
+  ctx.lineTo(fin, centroY);
 
   ctx.closePath();
   ctx.stroke();
