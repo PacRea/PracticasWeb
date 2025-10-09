@@ -6,6 +6,8 @@ window.onload = function () {
 
   // Se agrega un evento "click" al elemento obtenido anteriormente, y cuando se hace click en él, se ejecuta la función de callback que muestra un mensaje de alerta con el texto "Hola Clase"
   helloWorld.addEventListener("click", function () {
-    alert("Hola, este es mi primer porgrama en JavaScript y soy Diego Rea Morales");
+    alert(
+      "Hola, este es mi primer porgrama en JavaScript y soy Diego Rea Morales"
+    );
   });
 };
