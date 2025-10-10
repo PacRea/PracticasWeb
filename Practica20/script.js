@@ -1,4 +1,3 @@
-//Programa para ver realizar un cronometro
 let idInterval
 let segundos = 0;
 
