@@ -1,0 +1,48 @@
+label {
+  display: block;
+  margin-top: 10px;
+  color: #00faff;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  filter: none;
+  border: 1px solid #00faff;
+}
+
+.App {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #00faff; /* Neon blue text color */
+  padding: 20px;
+}
+h1 {
+  color: #00faff;
+  text-transform: uppercase;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #121212;
+  color: #00faff;
+  border: 1px solid #00faff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00faff;
+  color: #121212;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #ff6b00; /* Neon orange on hover */
+}
+input[type="range"] {
+  width: 100%;
+  background: #ff7300; /* Neon blue */
+}
