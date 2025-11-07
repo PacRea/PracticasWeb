@@ -3,7 +3,6 @@ function App() {
   const [num1, setNum1] = useState("");
   const [num2, setNum2] = useState("");
   const [result, setResult] = useState("");
-  const [tipoOp, setTipoOp] = useState("");
   const handleNum1Change = (event) => {
     setNum1(event.target.value);
   };

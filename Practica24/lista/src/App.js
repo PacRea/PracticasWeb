@@ -16,6 +16,9 @@ function App() {
     setListItems([]);
   };
   const deleteElement = (index) => {
+    //const newList = [...listItems];
+    //newList.splice(index, 1)
+    //setListItems(newList);
     const updList = listItems.filter((_, i) => i !== index);
     setListItems(updList);
   };
